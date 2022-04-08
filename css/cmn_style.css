@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* ===============================
+common setting
+=============================== */
+a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    -webkit-transition: all .2s ease;
+       -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+         -o-transition: all .2s ease;
+            transition: all .2s ease;
+    text-decoration: none;
+    opacity: .80;
+}
+a:active {
+    text-decoration: none;
+}
+a:hover img {
+         opacity: .80;
+
+    filter: alpha(opacity=80);
+    -moz-opacity: .80;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.clear {
+    clear: both !important;
+}
+.cFix {
+    zoom: 1;
+}
+
+.cFix:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    line-height: 0;
+    content: ".";
+}
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+html {
+    -webkit-font-smoothing: antialiased !important;
+
+    text-rendering: optimizeLegibility !important;
+}
+
+body {
+    min-width: 980px;
+    font-family: "Kosugi Maru","メイリオ", "Meiryo", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Osaka, sans-serif;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+    line-height: 1.75;
+    color: #333;
+    background: #fff;
+
+    text-rendering: optimizeLegibility;
+}
+.pc {
+    display: block;
+}
+.sp {
+    display: none;
+}
+
+/* ===============================
+section header
+=============================== */
+
+/* ===============================
+section content
+=============================== */
+
+/* ===============================
+Footer
+=============================== */

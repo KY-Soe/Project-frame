@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* ===============================
+font setting
+=============================== */
+@font-face {
+    font-family: "Kosugi Maru";
+
+    src: url("../fonts/KosugiMaru-Regular.ttf") format("woff"),url("../fonts/KosugiMaru-Regular.ttf") format("opentype"),url("../fonts/KosugiMaru-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Amatic SC";
+
+    src: url("../fonts/AmaticSC-Regular.ttf") format("woff"),url("../fonts/AmaticSC-Regular.ttf") format("opentype"),url("../fonts/AmaticSC-Regular.ttf") format("truetype");
+}
+.hansans-fz {
+    font-family: source-han-sans-japanese,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
